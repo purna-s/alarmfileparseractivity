@@ -116,8 +116,8 @@ func (a *XMLParserActivity) Eval(ctx activity.Context) (done bool, err error) {
 		fmt.Println(string(jsonData))
 	}*/
 	// Set the output as part of the context
-	activityLog.Debugf("Activity has parsed AlarmXML Successfully")
-	fmt.Println("Activity has parsed AlarmXML Successfully")
+	activityLog.Debugf("Activity has parsed Alarm XML Successfully")
+	fmt.Println("Activity has parsed Alarm XML Successfully")
 
 	ctx.SetOutput("output", string(jsonData))
 
